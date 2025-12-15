@@ -1,8 +1,8 @@
-// Online C++ compiler to run C++ program online
+
 #include <iostream>
 using namespace std;
 int main() {
-    // Write C++ code here
+    
     int n = 153;
     int hun = n/100;
     int tens = (n%100)/10;
@@ -19,4 +19,5 @@ int main() {
         cout<<"Not Armstrong";
     }
     return 0;
+
 }
